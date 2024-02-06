@@ -221,11 +221,17 @@ footer {
   transition: color 0.3s ease;
 }
 
-
 .contact-links {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e6c0e3;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 62%;
+  color: white;
+  margin-bottom: 40px;
 }
 
 .contact-links a {
@@ -234,7 +240,10 @@ footer {
   display: flex;
   align-items: center;
   color: #333;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  flex-wrap: wrap; 
+  justify-content: center;
 }
 
 .contact-links img {
@@ -252,3 +261,14 @@ footer {
   height: auto;
 }
 
+a[href="https://github.com/honeybunnyo/instagramclone"]:hover {
+  color:  rgb(244, 203, 230) !important; 
+}
+
+a[href="assets/images/keycap.png"]:hover {
+  color: white !important;
+}
+
+.contact-links a img.bigger-image {
+  width: 50px; 
+}
