@@ -11,12 +11,16 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #fff;
-  color: #fff;
+  color: #333;
   padding: 20px;
   text-align: center;
+  z-index: 1000; 
 }
-
 nav {
   position: absolute;
   top: 20px;
@@ -176,6 +180,46 @@ footer {
   transition: color 0.3s ease;
 }
 
+.timeline {
+  padding: 20px;
+  background-color: #c1c7e0;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 60%;
+  color: white;
+  margin-bottom: 40px;
+}
+.timeline h2 {
+  font-size: 36px; 
+  margin-bottom: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.timeline-content {
+  flex: 1;
+  padding: 20px;
+  border-left: 4px solid rgb(110, 85, 167);
+}
+
+.timeline-title {
+  font-size: 26px;
+  color: rgb(110, 85, 167);
+}
+
+.timeline-description {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.timeline p:hover {
+  color: rgb(117, 95, 168);
+  transition: color 0.3s ease;
+}
 
 
 .contact-links {
