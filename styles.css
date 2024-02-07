@@ -115,6 +115,33 @@ footer {
   width: 60%;
   color: white;
   margin-bottom: 40px;
+  animation: backgroundTransition1 8s ease infinite alternate; /* Apply animation */
+
+}
+
+@keyframes backgroundTransition1 {
+  0% {
+    background-color: #e6c0e3;
+  }
+  50% {
+    background-color: #b2ddee; 
+  }
+  100% {
+    background-color: #e6c0e3;
+  }
+}
+
+@keyframes backgroundTransition2 {
+  0% {
+    background-color: #b2ddee; 
+
+  }
+  50% {
+    background-color: #e6c0e3;
+  }
+  100% {
+    background-color: #b2ddee; 
+  }
 }
 
 #about h2 {
@@ -141,6 +168,8 @@ footer {
   width: 60%;
   color: white;
   margin-bottom: 40px;
+  animation: backgroundTransition2 8s ease infinite alternate; 
+
 }
 
 #projects p {
@@ -162,6 +191,7 @@ footer {
   width: 60%;
   color: white;
   margin-bottom: 40px;
+  animation: backgroundTransition1 8s ease infinite alternate; 
 }
 
 #hobbies h2 {
@@ -188,6 +218,8 @@ footer {
   width: 60%;
   color: white;
   margin-bottom: 40px;
+  animation: backgroundTransition2 8s ease infinite alternate; 
+  
 }
 .timeline h2 {
   font-size: 36px; 
@@ -232,6 +264,8 @@ footer {
   width: 62%;
   color: white;
   margin-bottom: 40px;
+  animation: backgroundTransition1 8s ease infinite alternate; 
+
 }
 
 .contact-links a {
